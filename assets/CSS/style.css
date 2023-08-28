@@ -2,3 +2,290 @@
 {
     margin: 0px;
 }
+
+body
+{
+    background-color: rgb(20, 17, 17);
+    color: white;  
+}
+.header{
+    display: flex;
+    justify-content: first baseline;
+}
+.header img
+{
+    
+    position: relative;
+    padding: 50px;
+}
+.header p{
+    position: relative;
+    right: 5%;
+    padding: 50px;
+    font-size: 35px;
+}
+.header .span-1
+{
+    position: relative;
+    top: 35%;
+    left: 10%;
+    font-size: 20px;
+    padding: 15px;
+    float: right;
+}
+.header .span-2
+{
+    position: relative;
+    top: 35%;
+    left: 10%;
+    font-size: 20px;
+    padding: 15px;
+    float: right;
+}
+.header .span-3
+{
+    position: relative;
+    top: 35%;
+    left: 10%;
+    font-size: 20px;
+    padding: 15px;
+    float: right;
+}
+.header .span-4
+{
+    position: relative;
+    top: 35%;
+    left: 10%;
+    font-size: 20px;
+    padding: 15px;
+    float: right;
+}
+.header .span-5
+{
+    position: relative;
+    top: 35%;
+    left: 10%;
+    font-size: 20px;
+    padding: 15px;
+    float: right;
+}
+.header button
+{
+    position: relative;
+    top: 35%;
+    left: 15%;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 10px;
+    float: right;
+    margin-left: 8px;
+}
+.content
+{
+    display: flex;
+    justify-content: center;
+}
+.content-1 .para-1
+{
+    position: relative;
+    top: 5%;
+    right: 85%;
+    font-size: 45px;
+}
+.content .short-para
+{
+    position: absolute;
+    bottom: 54%;
+    left: 10%;
+    background-color: rgb(246, 246, 23);
+    font-size: 45px;
+}
+.content-1 .para-2
+{
+    position: relative;
+    top: 15%;
+    right: 85%;
+    width: 500px;
+}
+.content-1 .options button
+{
+    position: relative;
+    margin-top: 25%;
+    right: 85%;
+    padding: 15px;
+    width: 150px;
+    border-radius: 25px;
+    font-size: 10px;
+    background-color: rgb(246, 246, 23);;
+}
+.content-1 .options-1 button
+{
+    position: absolute;
+    left: 17%;
+    top: 66%;
+    border-radius: 25px;
+    margin: 1px;
+    width: 150px;
+    padding: 15px;
+    font-size: 11px;
+}
+.content-1 .options img{
+    position: absolute;
+    left: 13%;
+    bottom: 30%;
+}
+.content-1 .img-1
+{
+    
+    position: relative;
+    right: 12%;
+    bottom: 7%;
+}
+.content-1 .img-1 img
+{   
+    clip-path: circle();
+    background-color: rgb(180, 236, 124);
+    border: 2px;
+    margin: -7px;
+    padding: 5px;
+
+}
+.img-4 img{
+    position: absolute;
+    right: 20%;
+    bottom: 21%;
+}
+
+
+.aside-para-4 
+{
+    position: absolute;
+    bottom: 4%;
+    left: 6%;
+    margin: 1px;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    
+    background-color: rgb(146, 247, 169); 
+}
+
+
+.aside-para-5 
+{
+    position: absolute;
+    bottom: 4%;
+    left: 27%;
+    margin: -4px;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    
+     background-color: rgb(146, 247, 169); 
+}
+.img-5
+{
+    position: absolute;
+    bottom: 9%;
+    left: 26%;
+}
+.aside-para-6
+{
+    position: absolute;
+    bottom: 5%;
+    left: 48%;
+    margin: -9px;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 9px;
+   
+    background-color: rgb(146, 247, 169); 
+}
+
+.img-6
+{
+    position: absolute;
+    bottom: 8%;
+    right: 52%;
+}
+
+.bottom-1 .bottom-text-1
+{
+    position: absolute;
+    top: 113%;
+    left: 4%;
+    width: 15%;
+    font-size: 20px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 15px;
+}
+.bottom-1 .bottom-text-2
+{
+    position: absolute;
+    top: 114%;
+    left: 13%;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 20px;
+}
+.bottom-2{
+    position: absolute;
+    top: 112%;
+    left: 25%;
+    font-size: 25px;
+}
+.bottom-3{
+    position: absolute;
+    top: 115%;
+    left: 50%;
+    font-size: 20px;
+}
+.bottom-3 .bottom-3-1
+{
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 15px;
+}
+.bottom-3 .bottom-3-2
+{
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 15px;
+}
+.bottom-3 .bottom-3-3
+{
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 15px;
+}
+.bottom-4{
+    position: absolute;
+    top: 115%;
+    left: 75%;
+    font-size: 20px;
+}
+.bottom-4 .bottom-4-1
+{
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 15px;
+}
+.bottom-img-1 img{
+    position: absolute;
+    clip-path: circle();
+    background-color: green;
+    padding: 10px;
+    top: 115%;
+    right: 78%;
+}
